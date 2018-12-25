@@ -1,0 +1,22 @@
+{
+  "name": "@h21-map/edit-table-leaflet",
+  "version": "1.0.2",
+  "scope":"@h21-map",
+  "description": "A library of Leaflet Map JS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novakand/h21-map-edit-table-leaflet"
+  },
+  "keywords": [
+    "leaflet",
+    "leaflet-map",
+    "edit-table",
+    "angular"
+  ],
+  "author": "",
+  "license": ""
+}
