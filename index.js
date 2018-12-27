@@ -1513,7 +1513,7 @@
         this.lng = latlng.lng;
     }
 
-    exports.Editable = L.Editable;
+    return Editable;
 
 })));
 
