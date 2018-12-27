@@ -5,7 +5,7 @@
 ```bash
 npm i @h21-map/edit-table-leaflet
 ```
-### How to use
+### How to use (dinamic)
 ```bash
-import {Geodesic} from '@h21-map/edit-table-leaflet'
+import('@h21-map/edit-table-leaflet');
 ```
