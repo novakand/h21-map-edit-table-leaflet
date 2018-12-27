@@ -1,11 +1,11 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
         typeof define === 'function' && define.amd ? define(['exports'], factory) :
             (factory((global.L = {})));
-}(this, (function (exports) {
+}(this, (function () {
     'use strict';
 
-    var Editable = L.Editable = L.Evented.extend({
+    L.Editable = L.Evented.extend({
 
         statics: {
             FORWARD: 1,
@@ -1512,8 +1512,6 @@
         this.lat = latlng.lat;
         this.lng = latlng.lng;
     }
-
-    return Editable;
 
 })));
 
