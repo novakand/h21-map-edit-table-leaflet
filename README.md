@@ -7,5 +7,5 @@ npm i @h21-map/edit-table-leaflet
 ```
 ### How to use (dinamic)
 ```bash
-import('@h21-map/edit-table-leaflet');
+import('@h21-map/edit-table-leaflet')
 ```
